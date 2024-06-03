@@ -66,7 +66,7 @@ const Quiz = () => {
         setResult(false);
     }
 
-  return (
+  return (<>
     <div className='container'>
         <h1>Quiz App</h1>
         <hr />
@@ -87,6 +87,11 @@ const Quiz = () => {
         </>:<></>}
       
     </div>
+
+<footer className="footer">
+Created and maintained by David Ramovich Mandal
+</footer>
+</>
   )
 }
 
